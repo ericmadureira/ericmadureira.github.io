@@ -4,15 +4,8 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+Brazilian, Baiano and Web Developer. I’ve been working with Ruby on Rails daily on <a href="https://www.sisvida.com.br" target="_blank">sisvida.com.br</a> and have also been studying the modern Javascript enviroment, which includes Node and React.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+My interests are Ruby on Rails, full stack development, career development and writing about them. Also I'm a huge fan of videogames, movies, science and well written stuff.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+You can find some of my projects at <a href="https://github.com/{{ site.github_username | cgi_escape | escape }}" title="{{ social.github | escape }}" target="_blank">Github</a>.
