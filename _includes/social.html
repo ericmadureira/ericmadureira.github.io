@@ -16,4 +16,12 @@
       </a>
     </li>
   {%- endif -%}
+
+  {%- if site.hackerrank_username -%}
+    <li>
+      <a href="https://www.hackerrank.com/{{ site.hackerrank_username | cgi_escape | escape }}" title="{{ social.hackerrank | escape }}" target="_blank">
+        <img class="svg-icon grey" src="hackerrank-brands.svg"></img>HackerRank
+      </a>
+    </li>
+  {%- endif -%}  
 </ul>
