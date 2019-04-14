@@ -2,7 +2,7 @@
 layout: post
 title:  Review of Loiane Groner's Learning JavaScript Data Structures and Algorithms"
 date:   2017-09-19 00:19:53 -0300
-categories: book review
+categories: 
 ---
 This is a review of Loiane Groner’s Learning JavaScript Data Structures and Algorithms. I will not make a huge analysis about every chapter but I hope this post can help you find an understandable reference about data structures.
 
