@@ -2,7 +2,7 @@
 layout: post
 title: My first technical interview
 date: 2019-04-13 17:39:12 -0300
-categories: technical interview career
+categories:
 ---
 I took my first technical interview yesterday and even not feeling very confident about the result, for me it was a good experience. I said first technical interview because for my first and current job as a software developer there was no extensive test of skills, just a fast review of my portfolio.
 
