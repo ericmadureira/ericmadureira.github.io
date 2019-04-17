@@ -23,6 +23,7 @@ url: "https://ericmadureira.github.io" # the base hostname & protocol for your s
 linkedin_username: eric-madureira
 github_username: ericmadureira
 hackerrank_username: ericmadureira_u1
+# future: true
 
 # Build settings
 markdown: kramdown
