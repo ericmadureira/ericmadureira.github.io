@@ -1,6 +1,7 @@
-For `Ruby 2.6.1`
+My personal blog, now using Jekyll instead of Hexo (I'm a rubyst afterall).
 
-1. git clone `https://github.com/ericmadureira/ericmadureira.github.io.git`
-2. gem install bundle
-3. bundle install
-3. bundle exec jekyll serve
+How to run:
+1. `git clone https://github.com/ericmadureira/ericmadureira.github.io.git`
+2. `gem install bundle`
+3. `bundle install`
+4. `bundle exec jekyll serve`
