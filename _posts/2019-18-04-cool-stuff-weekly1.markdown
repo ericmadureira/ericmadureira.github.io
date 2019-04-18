@@ -10,7 +10,7 @@ As a way to help me measure my progress as a software developer, I decided to wr
 	* **group_by(&:itself)**: A method that groups recurring elements and returns a hash with them. I used this on a HackerRank challenge to count how many times certain strings appeared in a array.
 
 * Rails
-	* **I18n.l**: a method to help you localize your content to the desired language. I know this is basic rails stuff but I've never used this before, only the similar I18n.t to translate labels and attributes. With that I was able to adapt dates to the brazillian format "dd/mm/yyyy".
+	* **I18n.l**: a method to help you localize your content to the desired language. I know this is basic rails stuff but I've never used this before, only the similar I18n.t to translate labels and attributes. With that I was able to adapt dates to the brazilian format "dd/mm/yyyy".
 	* **kaminari**: it's a well known ruby gem that provides an easy solution for pagination. We are making a new version of our billing system at my job and kaminari makes pagination many times easier just adding a few lines of code at the controllers and their views. Later I'll try to do pagination on my own so I can learn it's secrets.
 	* **scope**: a method to extract commonly used queries from the code and make them available to the class where the scope is defined. This one blew my mind because of the code drying potential. I had a bad habit of calling queries in the controller, now my MVC is a bit better!
 
