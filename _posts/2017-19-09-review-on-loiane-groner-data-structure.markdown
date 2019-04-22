@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Review of Loiane Groner's Learning JavaScript Data Structures and Algorithms"
+title:  Review of Loiane Groner's Learning JavaScript Data Structures and Algorithms
 date:   2017-09-19 00:19:53 -0300
 categories: 
 ---
