@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Cool Stuff I Learned this Week [1]
+title: Cool Stuff I Learned [1]
 date: 2019-04-18 06:00:39 -0300
 categories:
 ---
