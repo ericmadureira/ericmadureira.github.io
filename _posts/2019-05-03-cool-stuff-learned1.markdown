@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Cool Stuff I Learned [1]
-date: 2019-05-03 20:00:39 -0300
+date: 2019-05-03
 categories:
 ---
 I've changed the post format to include a larger period of time because there isn't much knowledge worth sharing every week. That being said, in the past weeks I've worked with Rails, Docker and a little bit of React, mostly to develop my skill with the front-end client + API architecture and reinforce some deficiencies I noted on previous code interviews.
