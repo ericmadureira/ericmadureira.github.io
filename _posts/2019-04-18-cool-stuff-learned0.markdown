@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Cool Stuff I Learned [0]
-date: 2019-04-18 06:00:39 -0300
+date: 2019-04-18
 categories:
 ---
 As a way to help me measure my progress as a software developer, I decided to write weekly posts summarizing the coolest new things I’ve learned in a given week. Every subject will have just a brief comment summing up what it is and how it helped me. Naturally I hope these posts can help you be a more resourceful developer as well. Let’s start with the coolest stuff from **2019/04/07** to **2019/04/13**:

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: My first code interview
-date: 2019-04-13 17:39:12 -0300
+date: 2019-04-13
 categories:
 ---
 I took my first code interview yesterday and even not feeling a 100% confident about the result, for me it was a good experience. I said first code interview because for my first and current job as a software developer there was no extensive test of skills, just a fast review of my portfolio.
