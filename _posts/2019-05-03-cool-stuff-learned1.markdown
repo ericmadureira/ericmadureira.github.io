@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Cool Stuff I Learned [1]
+title: Cool stuff I learned [1]
 date: 2019-05-03
 categories:
 ---
