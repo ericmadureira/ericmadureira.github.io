@@ -1,7 +1,7 @@
 ---
 layout: post
 title: My 2019 year so far (and beyond)
-date: 2019-05-29
+date: 2019-12-05
 categories:
 ---
 2019 is being by far the best year of my life. Ever since I left my home city to live and work in Campinas I’ve learned a lot about programming and about myself.
