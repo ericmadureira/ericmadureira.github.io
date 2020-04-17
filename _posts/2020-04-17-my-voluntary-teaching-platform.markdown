@@ -16,5 +16,6 @@ To achieve that the first features will be:
 
 Even though I've accumulated experience with the said tech stack, implementing it with Graphql and Apollo has been my main challenge. But hey, it's about helping people and on top of that improving my skills, it's a huge WIN - WIN :)
 
-So, if anyone got interested just drop by https://github.com/ericmadureira/voluntariado-facil and be part of it, or at least share with some friends :)  
-("voluntariado fácil" means "Easy volunteering", please don't be scared, it's in portuguese but everything still is subject to change).
+So, if anyone got interested just drop by the [**repository**](https://github.com/ericmadureira/voluntariado-facil) and be part of it, or at least share with some friends :)
+<br><br>
+**("voluntariado fácil" means "Easy volunteering", please don't be scared, it's in portuguese but everything still is subject to change)**
