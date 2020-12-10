@@ -1,14 +1,16 @@
-import React from 'react';
+import React from 'react'
 
 import Avatar from '../Avatar'
+import * as S from './styled'
 
 const Profile = () => (
-  <div>
+  <S.ProfileWrapper>
     <Avatar />
-    <h1>Eric Madureira</h1>
-    <h2>Front-end Developer</h2>
-    <p>Thoughts about software development and career building</p>
-  </div>
-);
+    <S.DescriptionWrapper>
+      <S.Description>Front-end developer.</S.Description>
+      <S.Description>Talking about software development and career building.</S.Description>
+    </S.DescriptionWrapper>
+  </S.ProfileWrapper>
+)
 
-export default Profile;
+export default Profile
