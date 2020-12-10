@@ -48,6 +48,9 @@ const GlobalStyles = createGlobalStyle`
     border-collapse: collapse;
     border-spacing: 0;
   }
+  #gatsby-focus-wrapper {
+    display: flex;
+  }
 `
 
 export default GlobalStyles
