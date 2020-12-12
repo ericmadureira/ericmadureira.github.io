@@ -4,6 +4,7 @@ import PropTypes from "prop-types";
 import GlobalStyles from '../../styles/global'
 import Profile from '../Profile';
 import Header from '../Header';
+
 import * as S from './styled';
 
 const Layout = ({ children }) => {

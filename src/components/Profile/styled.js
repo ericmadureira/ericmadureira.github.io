@@ -1,7 +1,9 @@
 import styled from 'styled-components'
 
 export const ProfileWrapper = styled.section`
+  align-items: center;
   display: flex;
+  margin-top: 2rem;
 `
 
 export const DescriptionWrapper = styled.div`
@@ -14,4 +16,5 @@ export const DescriptionWrapper = styled.div`
 
 export const Description = styled.span`
   font-size: 1rem;
+  padding: 2px 0;
 `
