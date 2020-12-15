@@ -12,7 +12,7 @@ export const PostLinkWrapper = styled.a`
 `
 
 export const PostItem = styled.div`
-  margin: 0.4rem 0;
+  margin: 1.5rem 0;
 `
 
 export const PostTitle = styled.p`
@@ -25,7 +25,7 @@ export const PostSubtitle = styled.p`
   font-size: 1rem;
 `
 
-export const PostDate = styled.p`
+export const PostDate = styled.time`
   color: #000;
   font-size: 0.8rem;
 `
