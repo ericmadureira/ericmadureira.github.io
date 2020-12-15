@@ -10,7 +10,7 @@ const Profile = () => (
     <Avatar />
     <S.DescriptionWrapper>
       <S.Description>Personal blog by Eric Madureira.</S.Description>
-      <S.Description>I talk about software development and career building.</S.Description>
+      <S.Description>I talk about front-end development and career building.</S.Description>
       <S.Description>
         <SocialLinks />
       </S.Description>
