@@ -2,15 +2,9 @@ import React, { useMemo } from 'react'
 
 import * as S from './styled'
 
-const posts = [
-  { date: 'December 14, 2020', title: 'Post Title A', subtitle: 'Post subtitle here' },
-  { date: 'December 15, 2020', title: 'Post Title B', subtitle: 'Post subtitle here' },
-  { date: 'December 16, 2020', title: 'Post Title C', subtitle: 'Post subtitle here' }
-]
-
-const PostFeed = () => {
+const PostFeed = ({ list }) => {
   const mappedPosts = useMemo(() => (
-    posts.map(({ date, subtitle, title }) => (
+    list.map(({ node: { frontmatter: { date, description, title }, timeToRead }}) => (
       <S.PostLinkWrapper
         href={'#'}
         title={title}
@@ -20,11 +14,11 @@ const PostFeed = () => {
         <S.PostItem>
           <S.PostTitle>{title}</S.PostTitle>
           <S.PostDate>{date}</S.PostDate>
-          <S.PostSubtitle>{subtitle}</S.PostSubtitle>
+          <S.PostDescription>{description}</S.PostDescription>
         </S.PostItem>
       </S.PostLinkWrapper>
     ))
-  ), [])
+  ), [list])
 
   return (
     <S.PostFeedWrapper>

@@ -20,7 +20,7 @@ export const PostTitle = styled.p`
   margin-bottom: 0.2rem;
 `
 
-export const PostSubtitle = styled.p`
+export const PostDescription = styled.p`
   color: #000;
   font-size: 1rem;
 `

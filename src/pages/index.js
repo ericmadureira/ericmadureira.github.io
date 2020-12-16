@@ -23,14 +23,12 @@ const IndexPage = () => {
     }
   `)
 
-  const { postList } = allMarkdownRemark.edges
-
-  postList.map(({ node: { frontmatter: { date, description, title }, timeToRead}}) => date)
+  const rawPostList = allMarkdownRemark.edges
 
   return (
     <Layout>
       <SEO title='Home' />
-      <PostFeed />
+      <PostFeed list={rawPostList} />
     </Layout>
   )
 }
