@@ -8,7 +8,9 @@ My personal website made with React + Gatsby + Netlify CMS (Work in progress)
 
 ## Tech stack
 - React
+- styled-components
 - Gatsby
+- Netlify CMS
 
 Based on [Willian Justen's incredible course](https://www.udemy.com/course/gatsby-crie-um-site-pwa-com-react-graphql-e-netlify-cms/)
 
