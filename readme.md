@@ -6,6 +6,10 @@ My personal website made with React + Gatsby + Netlify CMS (Work in progress)
 2. Run in develop mode with `gatsby develop`
 3. The blog will be available at http://localhost:8000/
 
-Based on Willian Justen's incredible [course](https://www.udemy.com/course/gatsby-crie-um-site-pwa-com-react-graphql-e-netlify-cms/)
+## Tech stack
+- React
+- Gatsby
+
+Based on [Willian Justen's incredible course](https://www.udemy.com/course/gatsby-crie-um-site-pwa-com-react-graphql-e-netlify-cms/)
 
 Posts follow the markdown syntax https://www.markdownguide.org/basic-syntax/
