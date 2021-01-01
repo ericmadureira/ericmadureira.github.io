@@ -8,7 +8,6 @@ const PostFeed = ({ list }) => {
       <S.PostLinkWrapper
         href={slug}
         title={title}
-        target='_blank'
         rel='noopener noreferer'
       >
         <S.PostItem>
