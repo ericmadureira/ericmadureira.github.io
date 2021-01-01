@@ -26,7 +26,7 @@ const SocialLinks = () => {
         </S.SocialLinksItem>
       )
     })
-  ), [links])
+  ), [])
 
   return (
     <S.SocialLinksWrapper>

@@ -17,12 +17,13 @@ export const PostItem = styled.div`
 
 export const PostTitle = styled.p`
   font-size: 2rem;
-  margin-bottom: 0.2rem;
+  margin-bottom: 0.3rem;
 `
 
 export const PostDescription = styled.p`
   color: #000;
   font-size: 1rem;
+  margin-top: 0.3rem;
 `
 
 export const PostDate = styled.time`

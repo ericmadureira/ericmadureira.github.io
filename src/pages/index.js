@@ -8,15 +8,18 @@ import PostFeed from '../components/PostFeed';
 const IndexPage = () => {
   const { allMarkdownRemark } = useStaticQuery(graphql`
     query PostList {
-      allMarkdownRemark {
+      allMarkdownRemark(sort: {fields: frontmatter___date, order: DESC}) {
         edges {
           node {
             frontmatter {
-              date
+              date(formatString: "DD-MM-YYYY")
               description
               title
             }
             timeToRead
+            fields {
+              slug
+            }
           }
         }
       }
