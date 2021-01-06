@@ -4,7 +4,7 @@ import * as S from './styled'
 
 const Header = () => (
   <S.HeaderWrapper>
-    <S.Title>Eric Madureira</S.Title>
+    <S.Title>Front-end Career</S.Title>
   </S.HeaderWrapper>
 )
 

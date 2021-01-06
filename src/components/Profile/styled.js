@@ -3,7 +3,7 @@ import styled from 'styled-components'
 export const ProfileWrapper = styled.section`
   align-items: center;
   display: flex;
-  margin-top: 2rem;
+  margin-top: 1rem;
 `
 
 export const DescriptionWrapper = styled.div`

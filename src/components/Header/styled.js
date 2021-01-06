@@ -6,6 +6,7 @@ export const HeaderWrapper = styled.div`
 `
 
 export const Title = styled.h1`
-  font-size: 2rem;
+  font-family: Montserrat,sans-serif;
+  font-size: 1.5rem;
   font-weight: bold;
 `
