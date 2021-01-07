@@ -10,3 +10,8 @@ export const Title = styled.h1`
   font-size: 1.5rem;
   font-weight: bold;
 `
+
+export const TitleLinkWrapper = styled.a`
+  color: #4AB2EE;
+  text-decoration: none;
+`

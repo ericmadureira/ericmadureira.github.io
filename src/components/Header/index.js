@@ -4,7 +4,9 @@ import * as S from './styled'
 
 const Header = () => (
   <S.HeaderWrapper>
-    <S.Title>Front-end Career</S.Title>
+    <S.TitleLinkWrapper href='/'>
+      <S.Title>Front-end Career</S.Title>
+    </S.TitleLinkWrapper>
   </S.HeaderWrapper>
 )
 

@@ -7,7 +7,7 @@ export const PostFeedWrapper = styled.section`
 `
 
 export const PostLinkWrapper = styled.a`
-  color: #037AD4;
+  color: #4AB2EE;
   text-decoration: none;
 `
 
