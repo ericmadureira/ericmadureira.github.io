@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[5],{"3XHS":function(e,t,n){"use strict";n.r(t);var a=n("q1tI"),l=n.n(a),u=n("Wbzz"),r=n("Zttt");t.default=function(){return l.a.createElement(r.a,null,l.a.createElement("h1",null,"About Eric Madureira"),l.a.createElement("ul",null,l.a.createElement("li",null,l.a.createElement(u.Link,{to:"/"},"Home")),l.a.createElement("li",null,l.a.createElement(u.Link,{to:"/about"},"About"))))}}}]);
-//# sourceMappingURL=component---src-pages-about-js-18d71f0ccfc41db60072.js.map
