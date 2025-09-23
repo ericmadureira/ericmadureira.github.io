@@ -1,28 +1,19 @@
-import { useState } from 'react'
+import Footer from './components/Footer'
+import Header from './components/Header'
+import { Outlet } from 'react-router-dom'
+
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      <main>
-        <div>
-          Header + Nav
-        </div>
-        <h1>Eric Madureira</h1>
-        <h2>Software Engineer</h2>
-        <div className='hero'>
-          Video here
-        </div>
-        <div className='portfolio'>
-          <div>Project 1</div>
-          <div>Project 2</div>
-        </div>
-        <div>
-          Social
-        </div>
-      </main>
+      <div className="min-h-screen flex flex-col bg-zinc-50 text-zinc-900">
+        <Header />
+        <main className="flex-1 max-w-5xl mx-auto w-full px-4 py-8">
+          <Outlet />
+        </main>
+        <Footer />
+      </div>
     </>
   )
 }
