@@ -1,8 +1,9 @@
+# .github/workflows/deploy.yml
 name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: [ master ]
+    branches: [ master ]   # ou main, conforme seu repo
   workflow_dispatch:
 
 permissions:
@@ -22,8 +23,12 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20
-      - name: Install
+      - name: Install deps
         run: npm ci || npm i
+      - name: Typecheck
+        run: npm run typecheck
+      - name: Lint
+        run: npm run lint
       - name: Build (Vite)
         run: npm run build
       - name: SPA 404 fallback

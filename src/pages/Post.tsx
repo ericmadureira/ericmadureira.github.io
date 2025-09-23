@@ -6,13 +6,17 @@ import posts from '../posts/posts.json'
 export default function Post() {
   const { slug } = useParams()
   const meta = posts.find(p => p.slug === slug)
-  const [html, setHtml] = useState('')
+  const [html, setHtml] = useState<string>('')
 
   useEffect(() => {
     if (!meta) return
-    fetch(`/src/posts/${meta.file}`)
-      .then(r => r.text())
-      .then(md => setHtml(marked.parse(md)))
+    ;(async () => {
+      // coloque os .md em public/posts
+      const res = await fetch(`/posts/${meta.file}`)
+      const md = await res.text()
+      const rendered = (await marked.parse(md)) as string
+      setHtml(rendered)
+    })()
   }, [meta])
 
   if (!meta) return <div className="text-sm opacity-70">Post not found.</div>

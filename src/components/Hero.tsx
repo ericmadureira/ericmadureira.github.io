@@ -38,20 +38,20 @@ export default function Hero() {
           <a
             href="https://github.com/ericmadureira"
             target="_blank"
-            className="px-4 py-2 rounded-xl border border-slate-300 hover:bg-slate-50 hover:scale-[1.04] transition"
+            className="px-4 py-2 rounded-xl border border-slate-300 bg-white hover:bg-white hover:scale-[1.04] transition"
           >
             💻 GitHub
           </a>
           <a
             href="https://www.linkedin.com/in/eric-madureira/"
             target="_blank"
-            className="px-4 py-2 rounded-xl border border-slate-300 hover:bg-slate-50 hover:scale-[1.04] transition"
+            className="px-4 py-2 rounded-xl border border-slate-300 bg-white hover:bg-white hover:scale-[1.04] transition"
           >
             🔗 LinkedIn
           </a>
           <a
             href="mailto:ericmadu416@gmail.com"
-            className="px-4 py-2 rounded-xl border border-slate-300 hover:bg-slate-50 hover:scale-[1.04] transition"
+            className="px-4 py-2 rounded-xl border border-slate-300 bg-white hover:bg-white hover:scale-[1.04] transition"
           >
             ✉️ Email
           </a>
