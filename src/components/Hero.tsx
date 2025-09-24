@@ -13,14 +13,14 @@ export default function Hero() {
       {/* Texto + CTAs */}
       <div>
         <p className="text-3xl leading-tight font-semibold">
-          Full-Stack Developer<br />
+          Full-Stack Engineer<br />
           <span className="opacity-80">React • TypeScript • Node</span>
         </p>
         <p className="mt-3 text-slate-600">
           I build reliable web apps and automations. Remote-ready. Time zones friendly.
         </p>
 
-        <div className="mt-6 flex flex-wrap gap-3">
+        <div className="mt-6 flex flex-wrap gap-3 justify-center-safe">
           <a
             href="#intro"
             onClick={play}
@@ -48,6 +48,12 @@ export default function Hero() {
             className="px-4 py-2 rounded-xl border border-slate-300 bg-white hover:bg-white hover:scale-[1.04] transition"
           >
             🔗 LinkedIn
+          </a>
+          <a
+            href="mailto:ericmadu416@gmail.com"
+            className="px-4 py-2 rounded-xl border border-slate-300 bg-white hover:bg-white hover:scale-[1.04] transition"
+          >
+            📑 Resume
           </a>
           <a
             href="mailto:ericmadu416@gmail.com"

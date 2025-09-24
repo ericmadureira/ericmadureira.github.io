@@ -11,15 +11,6 @@ export default function Home() {
       <Hero />
 
       <section>
-        <h2 className="text-lg font-semibold mb-3">Stack</h2>
-        <ul className="flex flex-wrap gap-2 text-sm">
-          {techSkills.map(s => (
-            <li key={s} className="px-3 py-1 rounded-full bg-white border">{s}</li>
-          ))}
-        </ul>
-      </section>
-
-      <section>
         <h2 className="text-lg font-semibold mb-4">Selected Projects</h2>
         <div className="grid sm:grid-cols-2 gap-4">
           <ProjectCard
@@ -38,6 +29,15 @@ export default function Home() {
             img="/assets/video-content-generator.jpg"
           />
         </div>
+      </section>
+
+      <section>
+        <h2 className="text-lg font-semibold mb-3">Stack</h2>
+        <ul className="flex flex-wrap gap-2 text-sm">
+          {techSkills.map(s => (
+            <li key={s} className="px-3 py-1 rounded-full bg-white border">{s}</li>
+          ))}
+        </ul>
       </section>
 
       <section>
