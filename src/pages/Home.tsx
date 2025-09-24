@@ -12,7 +12,7 @@ export default function Home() {
         <h2 className="text-lg font-semibold mb-3">Stack</h2>
         <ul className="flex flex-wrap gap-2 text-sm">
           {techSkills.map(s => (
-            <li key={s} className="px-3 py-1 rounded-full bg-zinc-100 border">{s}</li>
+            <li key={s} className="px-3 py-1 rounded-full bg-white border">{s}</li>
           ))}
         </ul>
       </section>
