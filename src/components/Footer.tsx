@@ -6,7 +6,7 @@ export default function Footer() {
         <div className="flex gap-3">
           <a className="underline decoration-dotted" href="https://github.com/ericmadureira" target="_blank">GitHub</a>
           <a className="underline decoration-dotted" href="https://www.linkedin.com/in/eric-madureira/" target="_blank">LinkedIn</a>
-          <a className="underline decoration-dotted" href="mailto:contato@seu-dominio.com">Email</a>
+          <a className="underline decoration-dotted" href="mailto:ericmadu416@gmail.com">Email</a>
         </div>
       </div>
     </footer>
