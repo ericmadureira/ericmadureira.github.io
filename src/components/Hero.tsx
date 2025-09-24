@@ -50,10 +50,13 @@ export default function Hero() {
             🔗 LinkedIn
           </a>
           <a
-            href="mailto:ericmadu416@gmail.com"
+            href="/assets/eric-madureira-resume.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
             className="px-4 py-2 rounded-xl border border-slate-300 bg-white hover:bg-white hover:scale-[1.04] transition"
+            aria-label="Open resume PDF in a new tab"
           >
-            📑 Resume
+            📑 Resume (PDF)
           </a>
           <a
             href="mailto:ericmadu416@gmail.com"
@@ -71,7 +74,7 @@ export default function Hero() {
             className="w-full h-full"
             src="https://youtube.com/embed/glHMSWBm5lA?rel=0&autoplay=1"
             title="Eric Madureira — 1-min intro"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; web-share"
             referrerPolicy="strict-origin-when-cross-origin"
             allowFullScreen
           />
