@@ -1,7 +1,3 @@
-# Cool stuff I learned [1]
-
-_03-05-2019 · 1 min read_
-
 I’ve changed the post format to cover a larger period (not enough weekly). In the past weeks I worked with Rails, Docker and a bit of React — focusing on client + API architecture and reinforcing interview weaknesses.
 
 ## Rails

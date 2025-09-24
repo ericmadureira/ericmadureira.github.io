@@ -1,7 +1,3 @@
-# Moving to Campinas for a new job
-
-_29-05-2019 · 1 min read_
-
 I've got a new job and I'll move to another city very soon! This is the result of the last 3 years working hard to improve, with the last 3 months being the most significant.
 
 I learned that setting and accomplishing small daily goals is the best way to keep me motivated. I’m grateful for the support from family, my girlfriend, friends and everyone at Techmobil (my first opportunity as a software developer), where I learned about professionalism, ethics, responsibility, productivity and companionship.

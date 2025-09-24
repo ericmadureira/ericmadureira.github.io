@@ -1,6 +1,3 @@
-# Cool stuff I learned [0]
-
-_18-04-2019 · 2 min read_
 **Period:** 2019/04/07 → 2019/04/13
 
 As a way to help me measure my progress as a software developer, I decided to write weekly posts summarizing the coolest new things I’ve learned. Brief comments on what it is and how it helped me.

@@ -1,7 +1,3 @@
-# My voluntary teaching platform
-
-_17-04-2020 · 1 min read_
-
 As an effort to engage myself more with voluntary work and practice even more JS, React, Node and all the new stuff, I've started an open source voluntary teaching platform.
 
 By open source I mean people can take this project, copy it, make money out of it, anything, as long as people get to help each other. And by voluntary teaching I mean this platform must provide ways for voluntaries, who already teach something or not, to organize their students and classes.
