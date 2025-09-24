@@ -1,5 +1,7 @@
 import { Link } from 'react-router-dom'
+
 import Hero from '../components/Hero'
+import ProjectCard from '../components/ProjectCard'
 
 const techSkills = ['React','TypeScript','Node.js','PostgreSQL','AWS','FFmpeg','Python (automation)']
 
@@ -20,16 +22,21 @@ export default function Home() {
       <section>
         <h2 className="text-lg font-semibold mb-4">Selected Projects</h2>
         <div className="grid sm:grid-cols-2 gap-4">
-          <a className="block p-4 rounded-xl border hover:bg-zinc-50" href="https://github.com/ericmadureira/flashdeck" target="_blank">
-            <div className="font-medium">FlashDeck</div>
-            <div className="text-sm opacity-80">Quick interview review with flashcards.</div>
-            <div className="text-xs opacity-70 mt-2">React + TypeScript</div>
-          </a>
-          <a className="block p-4 rounded-xl border hover:bg-zinc-50" href="https://github.com/ericmadureira/video-content-generator" target="_blank">
-            <div className="font-medium">YouTube Video Automation</div>
-            <div className="text-sm opacity-80">Script → TTS → FFmpeg pipeline. Publish with metadata.</div>
-            <div className="text-xs opacity-70 mt-2">Python + FFmpeg</div>
-          </a>
+          <ProjectCard
+            title="FlashDeck"
+            desc="Quick interview review with flashcards."
+            stack="React + TypeScript"
+            demoHref="https://ericmadureira.github.io/flashdeck/"
+            href="https://github.com/ericmadureira/flashdeck"
+            img="/assets/flashdeck-print.jpg"
+          />
+          <ProjectCard
+            title="YouTube Video Automation"
+            desc="Script → TTS → FFmpeg pipeline. Publish with metadata."
+            stack="Python + FFmpeg"
+            href="https://github.com/ericmadureira/video-content-generator"
+            img="/assets/video-content-generator.jpg"
+          />
         </div>
       </section>
 
