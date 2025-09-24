@@ -1,11 +1,12 @@
 import { useEffect, useMemo, useState } from "react";
 import { useParams } from "react-router-dom";
 import { marked } from "marked";
+
+import { HttpError, getErrorMessage, isAbortError } from "../lib/error";
 import posts from "../posts/posts.json";
 
 marked.setOptions({
   gfm: true,
-  // breaks: true,
 });
 
 export default function Post() {
@@ -19,33 +20,38 @@ export default function Post() {
 
   useEffect(() => {
     if (!meta) return;
+
+    const ac = new AbortController();
     setLoading(true);
     setErr(null);
 
     (async () => {
       try {
-        const res = await fetch(`/posts/${meta.file}`);
-        if (!res.ok) throw new Error(`Failed to load ${meta.file}`);
-        const md = await res.text();
+        const res = await fetch(`/posts/${meta.file}`, { signal: ac.signal });
+        if (!res.ok) throw new HttpError(res.status, res.statusText, res.url);
 
+        const md = await res.text();
         setReadingMin(meta.readtime);
 
         // render markdown
         const rendered = (await marked.parse(md)) as string;
 
-        // links externos em nova aba
-        let clean = rendered.replace(
+        // change external links to open in a new tab
+        const clean = rendered.replace(
           /<a\s+href="(http[^"]+)"([^>]*)>/g,
           '<a href="$1"$2 target="_blank" rel="noopener noreferrer">'
         );
 
         setHtml(clean);
-      } catch (e: any) {
-        setErr(e?.message || "Error loading post.");
+      } catch (e: unknown) {
+        if (isAbortError(e)) return
+        setErr(getErrorMessage(e));
       } finally {
         setLoading(false);
       }
     })();
+
+    return () => ac.abort();
   }, [meta]);
 
   const header = useMemo(() => {
