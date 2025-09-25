@@ -1,4 +1,4 @@
-type ProjectCardProps = {
+export type ProjectCardProps = {
   title: string
   desc: string
   stack: string
@@ -9,7 +9,7 @@ type ProjectCardProps = {
 
 export default function ProjectCard({ title, desc, stack, href, img, demoHref }: ProjectCardProps) {
   return (
-    <div className="p-4 rounded-xl border hover:bg-zinc-50">
+    <div className="p-4 rounded-xl border bg-white">
       {img && (
         <div className="aspect-video rounded-lg overflow-hidden ring-1 ring-indigo-200 mb-3 cursor-pointer">
           <a href={demoHref ? demoHref : href} rel="noopener noreferrer" target="_blank">

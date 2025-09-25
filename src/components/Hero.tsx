@@ -10,7 +10,6 @@ export default function Hero() {
 
   return (
     <section className="grid md:grid-cols-2 gap-8 items-center">
-      {/* Texto + CTAs */}
       <div>
         <p className="text-3xl leading-tight font-semibold">
           Full-Stack Engineer<br />
@@ -67,7 +66,6 @@ export default function Hero() {
         </div>
       </div>
 
-      {/* Thumbnail -> Iframe no MESMO lugar */}
       <div id="intro" className="aspect-video rounded-2xl ring-1 ring-blue-200 overflow-hidden">
         {playing ? (
           <iframe
@@ -84,7 +82,6 @@ export default function Hero() {
             className="group relative w-full h-full"
             aria-label="Play intro video"
           >
-            {/* coloque sua imagem em /public/assets/intro-thumb.jpg */}
             <img
               src="/assets/intro-thumb.jpg"
               alt="Intro thumbnail"
