@@ -2,7 +2,11 @@ This is a review of Loiane Groner’s **Learning JavaScript Data Structures and 
 
 <br>
 
-This was the first data structure book I have read and I think it's an appropriate introduction to new programmers. Choosing JavaScript was a good decision: demand is high and the environment is very easy to set up — you can run code in most browser consoles. The book covers most of the basics and a little more than I’m used to seeing in articles: sets, hashing and a few paragraphs about algorithm complexity. Each chapter describes the concepts behind the data structure, its pros/cons and at least one detailed example.
+This was the first data structure book I have read and I think it's an appropriate introduction to new programmers. Choosing JavaScript was a good decision: demand is high and the environment is very easy to set up — you can run code in most browser consoles.
+
+<br>
+
+The book covers most of the basics and a little more than I’m used to seeing in articles: sets, hashing and a few paragraphs about algorithm complexity. Each chapter describes the concepts behind the data structure, its pros/cons and at least one detailed example.
 
 <br>
 
@@ -10,14 +14,14 @@ Now a little criticism: page breaks sometimes make it harder to read and to keep
 
 <br>
 
-Parts I enjoyed the most (for solving doubts or presenting new concepts):
+Parts I enjoyed the most (for solving doubts or presenting new concepts):<br><br>
 
-- variable scope — a true concern for those who want to master JavaScript
-- truthy and falsy — a common source of misunderstanding
-- linked lists vs conventional arrays — at least understand the differences
-- decimal-to-binary converter using stacks — reminded me of first-semester CS classes
-- hashing and hash table explanation — a new way of arranging data
-- different sorting algorithms and their efficiencies (plus a small intro to Big-O)
+➡ variable scope — a true concern for those who want to master JavaScript<br>
+➡ truthy and falsy — a common source of misunderstanding<br>
+➡ linked lists vs conventional arrays — at least understand the differences<br>
+➡ decimal-to-binary converter using stacks — reminded me of first-semester CS classes<br>
+➡ hashing and hash table explanation — a new way of arranging data<br>
+➡ different sorting algorithms and their efficiencies (plus a small intro to Big-O)
 
 <br>
 

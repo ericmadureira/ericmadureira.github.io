@@ -1,12 +1,18 @@
 I’ve changed the post format to cover a larger period (not enough weekly). In the past weeks I worked with Rails, Docker and a bit of React — focusing on client + API architecture and reinforcing interview weaknesses.
 
+<br>
+
 ## Rails
 
 - `rails new project_name --api` — generates a Rails app adapted to be an API. Rails provides defaults so you can get up and running quickly; you can even enable API mode on an existing app. Familiarity + productivity make Rails my choice to learn more about APIs.
 
+<br>
+
 ## Docker
 
 - **Basics** — finally understood the value and started using it daily. You can package environment + dependencies and run almost anywhere. Great for developing on Windows 10 and making personal projects more accessible.
+
+<br>
 
 ## React Native
 
