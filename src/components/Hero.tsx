@@ -28,13 +28,6 @@ export default function Hero() {
             🎥 Watch 1-min intro
           </a>
           <a
-            href="https://calendar.app.google/7F88y2vfDi17tyoLA"
-            target="_blank"
-            className="px-4 py-2 rounded-xl bg-blue-600 text-white font-medium hover:brightness-95 hover:scale-[1.04] transition"
-          >
-            📅 Schedule a chat
-          </a>
-          <a
             href="https://github.com/ericmadureira"
             target="_blank"
             className="px-4 py-2 rounded-xl border border-slate-300 bg-white hover:bg-white hover:scale-[1.04] transition"
